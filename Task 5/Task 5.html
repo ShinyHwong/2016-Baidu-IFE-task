@@ -1,0 +1,239 @@
+﻿<!Doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+	<meta name="author" content="ShinyHwong">
+	<title>Task 2</title>
+	<style type="text/css">
+	*{margin: 0px; padding: 0px;}
+	body{
+		font-family: microsoft Yahei;
+		background-color: #dedede;
+	}
+	/*header*//*********************************************************************************************/
+	.header{
+		height: 50px; background: #434343; position: relative;
+	}
+	.header img{
+		height: 49px;width: 50px;margin-left: 10px;
+	}
+	.header ul{position: absolute; top: 0px; right: 10px; 
+	}
+	.header ul li{
+		float: left; padding: 14px 10px; list-style: none; width: 60px; text-align: center;
+	}
+	.header ul a{
+		text-decoration: none; color: white; font-size: 12px;
+	}
+	.header ul li:hover{
+		border-bottom: 1px solid red; background: #535953; border-radius: 3px;
+	}
+	/*aside*//**********************************************************************************************/
+	aside{
+		float: right; width: 350px; padding: 20px; margin:0px 20px 20px; background-color: white; box-shadow: 1px 1px 1px 1px #848484; 
+	}
+	aside h4{
+		border-left: 3px solid #ccc; padding-left: 10px; line-height: 40px; 
+	}
+	aside form div{
+		margin: 15px 0; font-size: 14px;
+	}
+	.tips{
+		float: left; text-align: right; width: 30%; padding-right: 15px;
+	}
+	aside p{
+		margin:10px 10px 10px 30%; padding-left: 15px; color: #aaa; font-size: 12px;
+	}
+	aside textarea{
+		height: 100px; width: 60%; 
+	}
+	.submit{
+		width: 100%; height:40px; background-color:#005CAF; border-radius:6px; border: none; color: white; font-size: 18px; 
+	}
+	.submit:hover{background-color: #0063dc}
+	/*mainbody*//*********************************************************************************************/
+	article{
+		padding: 20px; margin: 20px; background-color: white; box-shadow: 1px 1px 1px 1px #848484; margin-right: 432px;
+	}
+	article h2{padding: 10px 0;}
+	article h3{
+		color: #808080; padding: 10px 0px; font-size: 16px;
+	}
+	.auth{
+		color: #808080; line-height: 30px; font-size: 12px;
+	}
+	article p{
+		text-indent: 2em;
+	}
+	article a{color:blue;}
+	article a:hover{color: red;}
+	article img{padding: 20px 0;}
+	article ul li{list-style: none; padding: 0 20px;}
+	article dl{ overflow: hidden;}
+	article dl dd{
+		margin:20px; border: 1px solid #ccc; width: 160px; float: left;
+	}
+	article dd span{
+		font-size: 15px; margin: 20px; text-align: center; display: block; 
+	}
+	article dd img{padding:0 20px 20px; width: 120px; height: 100px;}
+	article ol{margin:15px 40px;}
+	article table{
+		width: 100%;border-collapse: collapse;  
+	}
+	article table tr th{
+		background-color: #333; color: white;  padding: 5px;
+	}
+	article table td{border: 1px solid #ccc;  padding: 5px;}
+	.bottomtable{
+		background-color: #ccc;font-weight: bold;
+	}
+	/*footer*//*********************************************************************************************/
+	.footer{
+		height: 50px; width: 100%; line-height: 50px; text-align: center; color: white; background-color: #434343; font-size: 14px; 
+	}
+	</style>
+</head>
+<body>
+	<div class="header" role="banner">
+		<h1><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1484192850&di=468539b222137ad2ad381ad2b60e9d24&src=http://tu.webps.cn/tb/img/4/TB1UXmDFVXXXXaBXVXXXXXXXXXX_%21%210-item_pic.jpg" tltle="logo" alt="logo";></h1>
+		<ul>
+			<li><a href="">导航链接一</a></li>
+			<li><a href="">导航链接二</a></li>
+			<li><a href="">导航链接三</a></li>
+			<li><a href="">导航链接四</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<aside>
+			<h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+			<!--<h3>侧栏注册窗口标题</h3>-->
+			<form>
+				<div>
+					<label class="tips" for="email">请输入邮箱地址</label>
+					<input type="text" name="address" value="这是一个文本输入框" id="email"/>
+					<p>邮箱地址请按要求格式输入</p>
+				</div>
+			</form>
+			<form>
+				<div>
+					<label class="tips" for="mm1">请输入密码</label>
+					<input type="password" name="password" id="mm1" value="这是一个密码输入框"/>
+				</div>
+				<div>	
+					<label class="tips" for="mm2">请重复输入密码</label>
+					<input type="password" name="password" id="mm2" value="这是一个密码输入框"/>
+					<p>密码为6-16位英文数字</p>
+				</div>
+			</form>
+			<form action="" method="post">
+				<div>
+					<label class="tips">性别</label>
+					<label>男</label><input type="radio" value="male" name="gender"/>
+					<label>女</label><input type="radio" value="female" name="gender"/>
+				</div>
+				<div>
+					<label class="tips">城市</label>
+					<select>
+						<option value="Beijing">北京</option>
+						<option value="Shanghai">上海</option>
+						<option value="Guangzhou">广州</option>
+						<option value="Shenzhen">深圳</option>
+					</select>
+				</div>
+				<div>
+					<label class="tips">爱好</label>
+					<input type="checkbox" value="sports"/><label>运动</label>
+					<input type="checkbox" value="arts"/><label>艺术</label>
+					<input type="checkbox" value="science"/><label>科学</label>
+				</div>
+				<div>
+					<label class="tips">个人描述</label><textarea rows="2" cols="26">这是一个多行输入框，输入你的个人描述</textarea>
+				</div>
+				<input class="submit" type="submit" value="确认提交"/>
+			</form>
+		</aside>
+		<div class="mainbody">
+			<article>
+				<h2>文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<span class="auth">文章作者&nbsp文章发表时间</span>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br/>换行了<br/>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="IFE Baidu">这是一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<b>这里有一个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+				<img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" width="300px" height="200px" alt="Senery" title="风景">
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br/>换行了<br/>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank" title="IFE Baidu">这里有一个链接点击后打开到新窗口链接http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+			</article>
+			<article>
+				<h2>另一篇文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<span class="auth">文章作者&nbsp文章发表时间</span>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br/>换行了<br/>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="IFE Baidu">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<b>这里有一个粗体字</b>这是一个很长的段落，这是一个很长的段落，换行了<br/>这是一个很长的段落，这是一个很长的段落。</p>
+				<img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" style="width:300px;height:200px" alt="Senery" title="风景">
+				<ul>
+					<li>列表项目一</li>
+					<li>列表项目二</li>
+					<li>列表项目三</li>
+				</ul>
+			</article>
+			<article>
+				<h2>图片</h2>
+				<dl>
+					<dt></dt>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+					<dd><span>美丽的图片</span><img src="http://img1.ph.126.net/uGXCiObZfCXqWxelYpQI-g==/6597955973028472771.jpg" alt="Senery" title="风景"></dd>
+				</dl>
+			</article>
+			<article>
+				<h2>最后一篇文章一级标题</h2>
+				<h3>文章二级标题</h3>
+				<span class="auth">文章作者&nbsp文章发表时间</span>
+				<ol>
+					<li>排名1</li>
+					<li>排名2</li>
+					<li>排名3</li>
+				</ol>
+				<table border=1px>
+					<tbody>
+						<span>下面是一个表格,给表格加了一个border="1"</span>
+						<tr>
+							<th>表头</th>
+							<th>表头</th>
+							<th>表头</th>
+						</tr>
+						<tr>
+							<td>表内单元格</td>
+							<td>表内单元格</td>
+							<td><a href="">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内单元格</td>
+							<td>表内单元格</td>
+							<td><a href="">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内单元格</td>
+							<td>表内单元格</td>
+							<td><a href="">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内单元格</td>
+							<td>表内单元格</td>
+							<td><a href="">操作</a></td>
+						</tr>
+						<tr class="bottomtable">
+							<td>总计</td>
+							<td colspan="2">1000</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</div>
+	</div>
+	<div class="footer"><p>版权所有&copyShinyHwong</p></div>
+</body>
+</html>
