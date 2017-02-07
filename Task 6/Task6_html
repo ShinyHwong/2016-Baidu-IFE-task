@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>通过HTML及CSS模拟报纸排版</title>
+	<link rel="stylesheet" type="text/css" href="index/css.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="head_url">
+				<p>ife.baidu.com</p>
+			</div>
+			<p class="head_time">2017.02</p>
+			<hr class="underline_1"/>
+		</header>
+		<section class="first">
+			<div>
+				<img class="img_1" src="index/img" alt="picture1" title="picture1"/>
+				<div class="img_1_l"></div>
+				<div class="img_1_r"></div>
+			</div>
+			<div class="aside">
+				<hr class="underline_2"/>
+				<h2>about</h2>
+				<h2>technology</h2>
+				<p class="aside_p">About technologe about technologe about technologe</p>
+				<p class="aside_700">700</p>
+				<div class="aside_down">
+					<p class="aside_large">3.2</p>
+					<p class="aside_middle">css</p>
+					<p class="aside_small">csscsscsscsscss</p>
+				</div>
+			</div>
+		</section>
+		<section class="second">
+			<dl>
+				<dd class="second_what">
+				<h2>What</h2>
+				<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前</p>
+				</dd>
+				<dd class="second_when">
+				<h2>When</h2>
+				<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				</dd>
+				<dd class="second_how">
+				<h2>How</h2>
+				<p>前端前端前端前端前端前端前端前端前端前端前端</p>
+				<p class="second_how_percentage">
+					What-----------<span>40%</span>
+					What-----------<span>30%</span>
+					What-----------<span>30%</span>
+				</p>
+				</dd>
+			</dl>
+		</section>
+		<section class="third">
+			<div class="third_left">
+				<h2><span>THE </span>TECHNOLOGE OF FRONT</h2>
+				<h3>前端技术领域</h3>
+				<hr class="underline_3"/>
+				<p><span>前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端<img src="index/img" alt="picture2" title="picture2">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				<p class="third_left_indent">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+				<p class="third_left_indent">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+				</p>
+			</div>
+			<div class="third_right">
+				<div class="third_img">
+					<img src="index/img" title="picture3">
+					<div class="third_img_background"></div>
+					<p><span>前端技术</span>前端技术前端技术</p>
+				</div>
+				<div class="third_right_down">
+					<p class="third_right_menu">
+						<span class="triangle"></span>&nbsp前端前端前端前端前端前端前端&nbsp..............<span>前端</span><br/>
+						<span class="triangle"></span>&nbsp前端前端前端前端前端&nbsp......................<span>前端</span><br/>
+						<span class="triangle"></span>&nbsp前端前端前端前端前端前端前端&nbsp..............<span>前端</span><br/>
+					</p>
+					<div class="third_right_red">
+						<p class="third_right_0">0</p>
+						<p class="third_right_num">ONE TWO <br/>THREE FOUR FIVE</p>
+						<p class="third_right_en">hello world hello world hello world</p>
+					</div>
+					<div class="third_right_hw">
+						<p><span class="third_right_hw_l">“</span>hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello<span class="third_right_hw_r">”</span></p>
+					</div>
+				</div>		
+			</div>
+		</section>
+		<footer>
+			<hr class="underline_4"/>
+			<p>ife.baidu.com</p>
+		</footer>
+	</div>
+</body>
+</html>
